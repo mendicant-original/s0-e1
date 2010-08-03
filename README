@@ -1,3 +1,6 @@
+-- RMU ZERO SESSION | PROBLEM 1  
+-- Submissions due 12:00 UTC 8/8
+
 The problems we work on in RMU are not going to be watered down practice
 problems.  Instead, we're going to try to tackle things with a bit more meat on
 them, so that we have much more to discuss.  We'll be able to talk about why one
@@ -35,6 +38,12 @@ following two approaches (but not both!):
     this case, you won't have a playable game to demo, so it'd be important
     to write some decent tests and sample code to demonstrate what your
     sub-component does and how it works.
+
+Your main goal is to show me something sufficiently interesting so that we can
+have a conversation about it, which puts a bit of the requirements into code
+that can actually be interacted with in some way.  In practice, being able to
+rapidly prototype ideas is a great skill to have, and Ruby is a great language
+for it, so I'm really interested in seeing what everyone comes up with.  
 
 Try to plan out your deliverables so that they challenge you a bit, but don't
 make them so ambitious that they overwhelm you.  It's a good idea to pick
