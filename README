@@ -1,6 +1,8 @@
 -- RMU ZERO SESSION | PROBLEM 1  
 -- Submissions due 12:00 UTC 8/8
 
+If in doubt about how to submit, see SUBMISSION_GUIDELINES file.
+
 The problems we work on in RMU are not going to be watered down practice
 problems.  Instead, we're going to try to tackle things with a bit more meat on
 them, so that we have much more to discuss.  We'll be able to talk about why one
@@ -14,7 +16,7 @@ relatively simple ruleset and then through in game actions, gets a whole lot
 more complicated as things go on.
 
 The description of the rules of the game, along with a sample cardset are
-included in the RULES file of this repository.
+included in the RULES file of this repository.  
 
 What I would like for you to do is  to read over them, discuss any 
 questions about the requirements with me, and then come up with something 
