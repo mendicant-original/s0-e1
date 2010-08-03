@@ -8,7 +8,7 @@ bit of code is better than the other a whole lot more clearly when we're working
 on real problems together.
 
 The first problem we're going to look at together is what it would take to put
-together a small prototype of acard game called Dominion.  Dominion is a
+together a small prototype of a card game called Dominion.  Dominion is a
 super neat game that I'd recommend to any hacker, because it starts with a
 relatively simple ruleset and then through in game actions, gets a whole lot
 more complicated as things go on.
