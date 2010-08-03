@@ -175,6 +175,17 @@ In the real game, there are many cards that affect other players hands, last for
 more than one turn, and invoke other special cases that complicate modeling.
 These 10 cards are amazingly, the most simple ones this game has to offer.
 
+NOTES: When a card says +1 gold, it means that the value of the gold in your
+*hand* increases by one, not that you gain a new Gold Coin card!
+
+NOTE: When a card says to Trash a card, it means that it is completely removed
+from play for the duration of the game.  When it says to discard a 
+card, it just means the card gets put in the player's discard pile.
+
+NOTE: You don't necessarily need to play all the action cards available to
+you in your hand, even if it was possible to chain together cards that grant
+you enough actions.  It's up to you.   
+
 Cellar (Cost 2):  
   +1 action
   discard any number of cards from hand. 
@@ -190,6 +201,12 @@ Militia (Cost 4):
   All other players must discard cards from their hand until 
   they have only 3 remaining.  Players with three or fewer cards
   do not discard any cards.
+
+Mine (Cost 5):
+
+  Trash a treasure card from your hand and gain a treasure card
+  up to 3 gold more expensive.  Put the new treasure card in your
+  hand.
 
 Moat (Cost 2):
   ACTION:
