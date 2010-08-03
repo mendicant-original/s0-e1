@@ -1,0 +1,222 @@
+Dominion is a card game in which players attempt to gain victory points, and
+like many games, the player who has the most points in the end, wins.
+
+The interesting thing about Dominion is that it has a very small set of
+foundational rules which are then amended by the cards that a player gain over
+the course of the game.  I'll describe the simple ruleset first, and then go on
+to describe how the cards change everything.
+
+== SETUP
+
+Each player is given an initial deck consisting of a few treasure cards (which
+are used to buy things) and a few victory cards (which do not serve a purpose 
+except for adding to the player's total score).  The exact quantities are 7
+Copper Coins and 3 Estates.
+
+Players shuffle their deck and it is placed face down on the table.  They draw 5
+cards into their hand from the top of the deck.  Their hand is kept hidden from the
+other players, except when a card requires some or all of their cards to be
+revealed.
+
+A store also needs to be set up, which is where all players acquire new cards from
+throughout the game.  These are all dealt face up to the table, visible to all
+players, with their remaining quantities known to everyone.  See the "Store
+Starting Inventory" section later in this document for the quantities of each 
+type of card.
+
+Once each player has shuffled their deck, the first player is chosen at random,
+and the game begins.
+
+== THE FIRST ROUND
+
+Turns usually start out by a player playing an action card.  However, since the
+initial deck that all players start with contains no actions, only treasure and
+victory points, this phase is skipped on the first turn, and the game goes
+immediately to the "buy" phase.
+
+The player is awarded 1 gold for each copper coin they hold in their hand, and
+may purchase exactly one card from the store of equal or lesser value than the
+number of copper coins in their hand.
+
+Once the purchase is complete, the player places the newly gained card, along
+with all their cards from their first hand into a face up discard pile and 
+picks up 5 new cards from their deck.
+
+Each player takes their turn, and then the second round begins
+
+== THE SECOND ROUND
+
+The second round is nearly identical to the first round, since the initial deck
+does not include any action cards, and any action card purchased in the first
+round cannot be used until it is reshuffled back into the deck.
+
+Players make their purchase and then discard their hand face up.  Because their 
+deck is then empty, they need to reshuffle their entire discard pile and then
+place it face down once again, drawing 5 cards from the top into their hand.
+
+== THIRD AND LATER ROUNDS
+
+In each turn that a player does not have action cards in hand, the game will
+play exactly as the first two rounds.  However, action cards are what make the
+game interesting, and are able to change almost anything.
+
+The ordinary order of play is simple:
+
+  1. Player gets to play exactly 1 action card, if they have it, following any
+  rules on the card.
+
+  2. Player makes exactly 1 purchase.
+
+  3. Player discards all cards in hand and the purchased card, and draws five
+  new cards from the top of their deck.  The discard pile is reshuffled and
+  replaces the deck whenever it is necessary to draw cards from the deck and 
+  there are not enough cards left.
+
+The key thing to remember however, is that Rule #1 allows the player to change
+the ordinary sequence of play in the way described on the card.  The cards do
+things like increase the number of cards a player draws into their hand, allows
+them to take cards for free from the store, grants them the ability to take more
+than one action per turn, allows them to purchase more than one item during the
+buy phase, and any number of other twists.
+
+In the real game of Dominion, each game's store is set up by randomly 
+selects 10 action cards from something like 100 possible rule-changing cards, 
+so you can imagine how each game can quite unique as a result of that.
+
+For the purposes of this exercise, I have described the 10 cards commonly used
+for a "first game", which are the ones you'll be expected to work with.  See the
+descriptions of "Treasure Cards", "Action Cards", and "Victory Cards" in the
+relevant sections below for greater detail.
+
+== ENDING THE GAME
+
+The game ends immediately when one of the following two conditions are met:
+
+* At least three of card types in the store (regardless if they are treasure,
+  victory or action cards) are sold out.
+
+* All Province cards are sold out.
+
+The players then count up all the victory cards in their deck, and the player
+with the most points is the winner!
+
+#######################
+# Reference Materials #
+#######################
+
+Store Starting Inventory
+------------------------
+
+These cards are all visible to all players at all times, and their quantities
+are known as well. 
+
+  53 Copper Coins
+  40 Silver Coins
+  30 Gold Coins
+
+  12 Estate
+  12 Duchy
+  12 Province (if 3-4 players, use 8 if only two players)
+
+  10 Cellar
+  10 Market
+  10 Militia
+  10 Moat
+  10 Remodel
+  10 Smithy
+  10 Village
+  10 Woodcutter
+  10 Workshop
+
+Treasure Cards
+-------------
+
+These cards determine how much gold you can spend during the buy phase of a
+round.  Keep in mind that actions also affect the "worth" of your hand, based on
+whatever rule changes they make.
+
+Since the copper coin costs 0 gold, you can always elect to "buy" a new copper 
+coin during your buy phase if you don't have any other options available.
+
+Copper Coin (Cost 0):
+  +1 gold
+
+Silver Coin (Cost 3):
+  +2 gold
+
+Gold Coin (Cost 6):
+  +3 gold
+
+Victory Cards
+-------------
+
+These cards are counted up at the end of the game by looking through the whole
+deck and tallying them up, but otherwise act as dead weight in your hand and
+have no effect.
+
+Estate (Cost 2):
+  +1 victory point
+
+Duchy (Cost 5):
+  +3 victory points
+
+Province (Cost 8):
+  +6 victory points
+
+Action Cards
+------------
+
+Typically a player is only allowed one action per turn, but many actions grant
+additional actions as part of their rule change.  Actions also manipulate the
+gold value of a hand, allow you to draw cards or gain new cards from the store,
+allow additional buys during the buy phase, and otherwise mess things up.
+
+In the real game, there are many cards that affect other players hands, last for
+more than one turn, and invoke other special cases that complicate modeling.
+These 10 cards are amazingly, the most simple ones this game has to offer.
+
+Cellar (Cost 2):  
+  +1 action
+  discard any number of cards from hand. 
+  +1 draw for each discarded cards
+
+Market (Cost 5):
+  +1 draw
+  +1 action
+  +1 buy
+  +1 gold
+
+Militia (Cost 4):
+  All other players must discard cards from their hand until 
+  they have only 3 remaining.  Players with three or fewer cards
+  do not discard any cards.
+
+Moat (Cost 2):
+  ACTION:
+  + two cards
+
+  REACTION (in response to someone else's action):
+  if another player plays an attack card, you may reveal this card
+  from your hand.  If you do, you are unaffected by the attack.
+
+Remodel (Cost 4):
+  Trash a card from your hand.  Gain a new card costing up to 2 gold
+  more than the card that you trashed.  Discard new card immediately.
+
+Smithy (Cost 4):
+  + 3 cards
+
+Village (Cost 3):
+  +1 Card
+  +2 Actions
+
+Woodcutter (Cost: 3):
+  +1 Buy
+  +2 Gold
+
+Workshop (Cost: 3)
+  Gain a new card costing up to 4 gold.
+  Discard New Card Immediately
+
+
+== That's pretty much it.  QUESTIONS?  Just catch up with me on IRC or the mailing list.

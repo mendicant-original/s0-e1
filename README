@@ -1,0 +1,45 @@
+The problems we work on in RMU are not going to be watered down practice
+problems.  Instead, we're going to try to tackle things with a bit more meat on
+them, so that we have much more to discuss.  We'll be able to talk about why one
+bit of code is better than the other a whole lot more clearly when we're working
+on real problems together.
+
+The first problem we're going to look at together is what it would take to put
+together a small prototype of acard game called Dominion.  Dominion is a
+super neat game that I'd recommend to any hacker, because it starts with a
+relatively simple ruleset and then through in game actions, gets a whole lot
+more complicated as things go on.
+
+The description of the rules of the game, along with a sample cardset are
+included in the RULES file of this repository.
+
+What I would like for you to do is  to read over them, discuss any 
+questions about the requirements with me, and then come up with something 
+that you can build with no more than 4-8 hours worth of work between
+now and Monday.  Please note that the rules below are intentional a bit
+sparse, you are encouraged to discuss them here on the mailing list or 
+via IRC to gain a better understanding of what they mean.
+
+I absolutely do not expect you to implement an entire working backend game
+engine.  Instead, I want you to build a rapid prototype which takes one of the
+following two approaches (but not both!):
+
+  * Demonstrates the rough idea of the system in a fairly complete way.  You
+    may need to change the rules or simplify them in order to make this 
+    happen.  If you go this route, you should be able to have a low level
+    command line demonstration of 'playing the game', even if you had to
+    cut some corners to get there.
+
+  * Identify a non-trivial sub-component that you can build that you might be
+    able to simply drop into place when the full system is developed.  In
+    this case, you won't have a playable game to demo, so it'd be important
+    to write some decent tests and sample code to demonstrate what your
+    sub-component does and how it works.
+
+Try to plan out your deliverables so that they challenge you a bit, but don't
+make them so ambitious that they overwhelm you.  It's a good idea to pick
+something lying a short distance outside of your comfort area, so that you're
+experiencing growth without burning yourself out.  Remember that with this and
+all RMU projects, you are going to be evaluated on your individual progress, so
+that means starting as big or small as you need to in order to learn something
+from the exercise.
