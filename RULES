@@ -189,10 +189,10 @@ you enough actions.  It's up to you.
 Cellar (Cost 2):  
   +1 action
   discard any number of cards from hand. 
-  +1 draw for each discarded cards
+  +1 card for each discarded card
 
 Market (Cost 5):
-  +1 draw
+  +1 card
   +1 action
   +1 buy
   +1 gold
@@ -224,7 +224,7 @@ Smithy (Cost 4):
   + 3 cards
 
 Village (Cost 3):
-  +1 Card
+  +1 card
   +2 Actions
 
 Woodcutter (Cost: 3):
